@@ -31,7 +31,6 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -64,6 +63,9 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.launch{
+  margin-top: 20px;
+}
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -83,7 +85,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -92,4 +94,39 @@ p {
 }
 a {
   border-radius: var(--primary-radius);
+}
+@media (max-width:576px) {
+  h1{
+    font-size: 45px;
+    
+  
+  }
+  h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+   
+  }
+  h3{
+    font-size: 25px;
+  
+  }
+  .navigation-links a{
+    font-size: 17px;
+    padding: 20px 12px;
+    margin: 10px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 1.5;
+    
+  }
+  .launch{
+    margin-bottom: none;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+   
+  }
+
 }
